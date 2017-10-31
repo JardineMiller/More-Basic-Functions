@@ -87,3 +87,17 @@ def number_to_short_month_name(number)
 			"Dec"
 	end
 end
+
+def volume_of_cube(number)
+	number**3
+end
+
+def volume_of_sphere(radius)
+	result =(4.00/3) * 3.14159265359 * (radius**3)
+	return result.round(2)
+end	
+
+def farenheit_to_celsius(temp)
+	result = (temp - 32) / 1.8
+	return result.round()
+end
